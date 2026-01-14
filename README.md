@@ -1,6 +1,6 @@
 # No Inventory Character
 
-# CURRENT SUPPORTED VERSION: 1.21.7
+# CURRENT SUPPORTED VERSION: 1.21.11
 
 This mod removes the Player-Render from all the Game's Inventory Screens (Except for the Smithing Table).
 This is especially useful if you use stuff like graphics in Resourcepacks, which would be obscured by the render.
