@@ -16,4 +16,4 @@ This is especially useful if you use stuff like graphics in Resourcepacks, which
   ./gradle build # On Linux/MacOS
   ````
 - The Built jar file will be in ``<project-directory>/build/libs/[modname]-[version].jar``
-    - The file ending with ``-sources.jar`` is not the mod, but the compressed source files.
+  - The file ending with ``-sources.jar`` is not the mod, but the compressed source files.
