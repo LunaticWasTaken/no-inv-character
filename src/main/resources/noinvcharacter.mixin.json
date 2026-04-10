@@ -1,13 +1,14 @@
 {
   "required": true,
   "package": "de.chloedev.noinvcharacter.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
+  "compatibilityLevel": "JAVA_25",
   "injectors": {
     "defaultRequire": 1
   },
-  "client": [
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "mixins": [
     "MixinInventoryScreen"
   ]
 }

@@ -1,14 +1,12 @@
 # No Inventory Character
 
-# CURRENT SUPPORTED VERSION: 1.21.11
-
 This mod removes the Player-Render from all the Game's Inventory Screens (Except for the Smithing Table).
 This is especially useful if you use stuff like graphics in Resourcepacks, which would be obscured by the render.
 
 ### Building:
 
-- Make sure you got both java 21 (or later) and Git installed and in your path
-- Run the following commands in any terminal:
+- Make sure you got both a java 21+ jdk and git installed and in your path
+- Run the following commands in your favorite terminal:
 - ````shell
   git clone "https://github.com/lunatic-gh/no-inv-character"
   cd "no-inv-character"

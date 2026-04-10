@@ -3,18 +3,27 @@
   "id": "noinvcharacter",
   "version": "${version}",
   "name": "No Inventory Character",
-  "description": "Removes the Character-Render in the Inventory. Useful for Resourcepacks.",
+  "description": "Removes the Character-Render from the Inventory. Useful for Resourcepacks.",
   "authors": [
     "Lunatic"
   ],
-  "license": "MIT",
+  "contact": {
+    "homepage": "https://discord.com/invite/WvGqwpbfye",
+    "sources": "https://github.com/LunaticWasTaken/no-inv-character",
+    "issues": "https://github.com/LunaticWasTaken/no-inv-character/issues"
+  },
+  "license": "NoInvCharacter License",
   "icon": "assets/noinvcharacter/icon.png",
-  "environment": "*",
+  "environment": "client",
+  "entrypoints": {},
   "mixins": [
-    "noinvcharacter.mixins.json"
+    {
+      "environment": "client",
+      "config": "noinvcharacter.mixin.json"
+    }
   ],
   "depends": {
-    "fabric-api": "*"
-  },
-  "accessWidener": "noinvcharacter.accesswidener"
+    "fabricloader": "*",
+    "minecraft": ">=26.1.2"
+  }
 }
