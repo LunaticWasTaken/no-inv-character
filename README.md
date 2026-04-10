@@ -5,7 +5,7 @@ This is especially useful if you use stuff like graphics in Resourcepacks, which
 
 ### Building:
 
-- Make sure you got both a java 21+ jdk and git installed and in your path
+- Make sure you got both a java 25+ jdk and git installed and in your path
 - Run the following commands in your favorite terminal:
 - ````shell
   git clone "https://github.com/lunatic-gh/no-inv-character"
